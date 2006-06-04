@@ -1,0 +1,4 @@
+Revision history for Perl extension CGI::Session::Driver::odbc.
+
+1.00  Wed 17 May 16:00:00 2006
+	- Original version
