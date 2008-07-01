@@ -1,14 +1,14 @@
 ---
 name: CGI-Session-Driver-odbc
-version: 1.00
+version: 1.01
 author:
-  - Ron Savage <ron@savage.net.au>
+  - 'Ron Savage <ron@savage.net.au>'
 abstract: A CGI::Session driver for ODBC
 license: artistic
 resources:
   license: http://opensource.org/licenses/artistic-license.php
 requires:
-  CGI::Session::Driver::DBI: 0
+  CGI::Session::Driver::DBI: 4.21
   Carp: 0
 build_requires:
   Test::More: 0
@@ -16,8 +16,8 @@ build_requires:
 provides:
   CGI::Session::Driver::odbc:
     file: lib/CGI/Session/Driver/odbc.pm
-    version: 1.00
-generated_by: Module::Build version 0.2801
+    version: 1.01
+generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
