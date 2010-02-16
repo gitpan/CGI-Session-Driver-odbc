@@ -7,27 +7,28 @@ WriteMakefile
 (
 	($] ge '5.005') ?
 	(
-		'AUTHOR' => 'Ron Savage (ron@savage.net.au)',
-		'ABSTRACT' => 'A CGI::Session driver for ODBC',
+	 'AUTHOR'   => 'Ron Savage (ron@savage.net.au)',
+	 'ABSTRACT' => 'A CGI::Session driver for ODBC',
     ) : (),
-	clean			=>
+	clean =>
 	{
-		FILES		=> 'blib/* Makefile MANIFEST CGI-Session-Driver-odbc-*'
+	 FILES => 'blib/* Makefile MANIFEST CGI-Session-Driver-odbc-*'
 	},
-	dist			=>
+	dist =>
 	{
-		COMPRESS	=> 'gzip',
-		SUFFIX		=> 'gz'
+	 COMPRESS => 'gzip',
+	 SUFFIX   => 'gz'
 	},
-	DISTNAME		=> 'CGI-Session-Driver-odbc',
-	NAME			=> 'CGI::Session::Driver::odbc',
-	PL_FILES		=> {},
-	PREREQ_PM		=>
+	DISTNAME  => 'CGI-Session-Driver-odbc',
+	NAME      => 'CGI::Session::Driver::odbc',
+	PL_FILES  => {},
+	PREREQ_PM =>
 	{
-		Carp						=> 0,
-		CGI::Session::Driver::DBI	=> '4.21',
-		Test::More					=> 0,
-		Test::Pod					=> 0,
+	 Carp         => 0,
+	 CGI::Session => '4.42',
+	 DBI          => 1.609,
+	 Test::More   => 0.94,
+	 Test::Pod    => 1.41,
 	},
-	VERSION_FROM	=> 'lib/CGI/Session/Driver/odbc.pm',
+	VERSION_FROM => 'lib/CGI/Session/Driver/odbc.pm',
 );

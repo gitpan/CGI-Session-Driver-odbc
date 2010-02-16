@@ -5,7 +5,7 @@ use Carp;
 use CGI::Session::Driver::DBI;
 
 @CGI::Session::Driver::odbc::ISA       = qw( CGI::Session::Driver::DBI );
-$CGI::Session::Driver::odbc::VERSION   = '1.01';
+$CGI::Session::Driver::odbc::VERSION   = '1.04';
 
 # -----------------------------------------------
 
