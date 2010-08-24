@@ -1,5 +1,9 @@
 Revision history for Perl extension CGI::Session::Driver::odbc.
 
+1.05  Sun Feb 21 12:54:39 2010
+	- Remove text 'All rights reserved' (for Debian licensing).
+	- Remove POD heads 'Required Modules' and 'Changes'.
+
 1.04  Tue Feb 16 13:47:00 2010
 	- Update required modules in Build.PL and Makefile.PL, based on
 		feedback from CPAN testers. Specifically, add DBI, since

@@ -5,7 +5,7 @@ use Carp;
 use CGI::Session::Driver::DBI;
 
 @CGI::Session::Driver::odbc::ISA       = qw( CGI::Session::Driver::DBI );
-$CGI::Session::Driver::odbc::VERSION   = '1.04';
+$CGI::Session::Driver::odbc::VERSION   = '1.05';
 
 # -----------------------------------------------
 
@@ -173,16 +173,6 @@ ActiveState-style distro (*.ppd). The latter is shipped in a *.zip file.
 See http://savage.net.au/Perl-modules/html/installing-a-module.html for
 help on unpacking and installing each type of distro.
 
-=head1 Required Modules
-
-=over 4
-
-=item Carp
-
-=item CGI::Session::Driver::DBI
-
-=back
-
 =head1 Credits
 
 This code is partially copied from the corresponding MySql driver by Sherzod Ruzmetov and the Postgres driver by Cosimo Streppone.
@@ -195,8 +185,7 @@ Home page: http://savage.net.au/index.html
 
 =head1 Copyright
 
-Australian copyright (c) 2005, Ron Savage. All rights reserved.
-
+Australian copyright (c) 2005, Ron Savage.
 	All Programs of mine are 'OSI Certified Open Source Software';
 	you can redistribute them and/or modify them under the terms of
 	The Artistic License, a copy of which is available at:
